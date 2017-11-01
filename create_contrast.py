@@ -14,6 +14,7 @@ x = 50 #contrast value
 imghsv[:,:,2] = [[max(pixel - x, 0) if pixel < 200 else min(pixel + x, 255) for pixel in row] for row in imghsv[:,:,2]]
 img_contrast = cv2.cvtColor(imghsv, cv2.COLOR_HSV2BGR)
 
+cv2.imwrite("Data/image_contrast.jpg",img_contrast)
 
 cv2.imshow('contrast', img_contrast)
 cv2.imshow("image",img)
