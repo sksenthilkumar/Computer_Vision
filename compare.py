@@ -19,6 +19,9 @@ def mse(imageA, imageB):
 	return err
 
 def compare_images(imageA, imageB, title):
+
+	imageA = cv2.resize(imageA,(300,300))
+	imageB = cv2.resize(imageB,(300,300))
 	# compute the mean squared error and structural similarity
 	# index for the images
 	m = mse(imageA, imageB)
@@ -46,7 +49,7 @@ def compare_images(imageA, imageB, title):
 original = cv2.imread("Data/image.jpg")
 contrast = cv2.imread("Data/image_contrast.jpg")
 shopped = cv2.imread("Data/image_rotated.jpg")
-shopped = cv2.resize(shopped,(original.shape[1],original.shape[0]))
+
 
 # convert the images to grayscale
 original = cv2.cvtColor(original, cv2.COLOR_BGR2GRAY)
