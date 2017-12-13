@@ -202,11 +202,11 @@ To extract now the corners of the five tile row, the adaptive threshold filter i
 \caption{The contour of the image that corresponds to the biggest area of the cropped image.}
 \label{fig:five}
 \end{figure}
-The low resolution of the image makes it hard to extract the four corners immediately. To get only the four corner points of the tile row, a number of possible corner points is extracted from the contour. These points are then ... (fig. \ref{fig:points})\\
+The low resolution of the image makes it hard to extract the four corners immediately. The Harris corner detection is used to extract the four corner points, since these are a little misplaced the cornerSubPix method as described in [2] is used to extract the corners more precisely(fig. \ref{fig:points})\\
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.3]{images/lenna.png}
-\caption{Only four corner points remain, enclosing the whole contour of the five tiles.}
+\includegraphics[scale=1]{images/Corners.jpg}
+\caption{The two extracted corners are shown, red shows the Harris corner, while green shows the corner with sub pixel precision.}
 \label{fig:points}
 \end{figure}
 The four points are used to transform the perspective of the tiles to create and artificial top-down image containing only the five tiles (fig. \ref{fig:homograph}).\\
@@ -244,6 +244,6 @@ The resulting image is then divided into five equal parts and the images are sto
 
 \begin{thebibliography}{99}
 	\bibitem{first} Robocup @work rulebook, p. 35. Robocup-rulebook2017
-	\bibitem{second} ? 
+	\bibitem{second} Webpage, last viewed 13.12.17 20:25, https://docs.opencv.org/3.1.0/dc/da5/tutorial\_py\_drawing\_functions.html
 	\end{thebibliography}
 \end{document}
