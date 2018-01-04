@@ -141,10 +141,9 @@ placed in the corresponding cavities or when the time foreseen for the run ends.
 \item  Note that the
 placement of the object in the cavity is finished when the object is fallen into the cavity (i.e.  at
 least some part of the object has to touch ground floor underneath the cavity).
-\item
-All objects to be transported in a run of a team and the corresponding cavities share the same
+\item All objects to be transported in a run of a team and the corresponding cavities share the same
 orientation, either horizontal or vertical.  This may vary between different teams and different
-runs.[1]\\
+runs.[1]
 \end{itemize}
 
 \end{quote}
@@ -178,7 +177,7 @@ runs.[1]\\
 \begin{center}
 \includegraphics[scale=0.5]{images/AllParts.jpg}
 \end{center}
-\caption{six objects which has to be placed in the cavity tiles}
+\caption{six objects which has to be placed in the cavity tiles \cite{second} }
 \end{figure}
 
 \subsection{Cavity tiles details:}
@@ -491,7 +490,7 @@ Orientation of the cavity tile:\textbf{ 0 degree}
 
 
 
-\subsubsection*{Mean square error image comparison method}
+\subsubsection*{Mean Square Error(MSE)}
  The Mean Square Error (MSE) image comparison method is based on the formula. \\
  
  Let I and K be the two images that has to be compared
@@ -502,7 +501,63 @@ Orientation of the cavity tile:\textbf{ 0 degree}
 In MSE, both images are converted into same size. Then, difference(error) between each pixel of both the images are taken and squared. The summation of all the error square will give the MSE value. 
 Lower the error similar the images. 
 
-There is another technique for image comparison called Structural Similarity Measure (SSM). However this method didn't perform well for many images. 
+There is another technique for image comparison called Structural Similarity Measure (SSM). 
+
+\subsection*{Structurality Similarity Index Measure (SSIM)}
+
+The SSIM models the changes in the structural information of the images. While MSE models the error. 
+
+It is based on the formula \cite{third}
+\begin{equation}
+SSIM(x,y) = \frac{(2\mu_{x}\mu_{y}+C_{1})(2\sigma_{xy}+C_{2})}{(\mu^{2}_{x}+\mu^{2}_{y}+C_{1})(\sigma^{2}_{x}+\sigma^{2}_{y}+C_{1})}
+\end{equation}
+where, 
+$\mu - mean $
+$\sigma - variance $
+$c - covariance $
+
+This is used to compare two windows rather than two images \\ 
+The output value ranges from -1 to 1, where 1 represents a perfect match
+
+\begin{figure}[h!]
+
+\centering 
+\includegraphics[scale = 0.3 ]{images/ComparisonInput.png}
+\includegraphics[scale = 0.3 ]{images/Comparison_MSE_BestMatch.png}
+\includegraphics[scale = 0.3]{images/Comparison_SSIM_BestMatch.png}
+\caption{From the left. First image is the extracted cavity tile image which is given as input to the MSE or SSIM comparison algorithm. The second image is the best match found in the database using MSE method. The third image is the best match found using SSIM method.}
+\label{fig:Comparions_result}
+
+\end{figure}
+
+\subsection*{For better efficiency}
+For the comparison techniques seen above perform well, the images are preprocessed with few filters
+\begin{itemize}
+\item The image is converted into \textbf{grey scale}. 
+\item Both the images to be compared are \textbf{resized} into same dimension
+\item \textbf{Binary Threshold} is applied. So that the cavity part becomes black, while the tile part becomes white (Fig:\ref{fig:Comparions_PreProcessing})
+\item \textbf{Median blur} is applied to get rid of the salt and pepper noise (Fig:\ref{fig:Comparions_PreProcessing})
+\end{itemize}
+\begin{figure}[h!]
+\begin{minipage}{\textwidth}
+\centering 
+\includegraphics[scale = 0.3]{images/AfterThreshholding.png}
+\hspace{1cm}
+\includegraphics[scale = 0.3 ]{images/AfterMedianBlur.png}
+\caption{From the left. The first image is after applying threshold to the input image. The second image is the image after applying median blur}
+\label{fig:Comparions_PreProcessing}
+\end{minipage}
+\end{figure}
+
+\subsubsection*{Optimisation:}
+Not yet implemented
+\paragraph*{When the difference between the best match and second best match is very low}
+If in MSE the difference between the top two best match is very low, then the SSIM comes is considered.
+\paragraph*{When best match of MSE and SSIM are different}
+From the input image the contour is detected and the area is calculated. This area is compared with the area of the cavities calculated from the database cavity tiles. The best match by area comparison is used to decide the object.
+
+
+
 
 
 \section{Evaluation and results}
@@ -557,7 +612,7 @@ There is another technique for image comparison called Structural Similarity Mea
  \hline
  Center of cavity detection & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
  Cropping 					& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
- Detecting the five tiles 	& \checkmark & \checkmark & x & x & \checkmark \\
+ Detecting the five tiles 	& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
  Detecting the corners		 & \checkmark & \checkmark & x & x & \checkmark \\
  Homography 						& \checkmark & \checkmark & x & x & \checkmark \\
  Number of cavity tiles extracted & 5 & 5 & 0 & 0 & 5 \\
@@ -570,13 +625,17 @@ There is another technique for image comparison called Structural Similarity Mea
 \item When there is a slight gap between the cavity tiles in the PPT platform, the contour detection finds two contours
 \item Hence the corner detection also finds the corners of only one set of cavity tiles
 \item The corner detection for cropping the tiles doesn't work right always
+\item The comparison of image using mse was able to find the perfect match for 14 out of 15 tiles during the test run
+\item When the clarity of the image is too poor the comparison technique fails
+\item As shown in the Fig:\ref{fig:result}, the object for the first tile is supposed to be small nut, but the algorithm says it as cylinder. This is because there is only a minute difference between hexagon and the circle
 \end{itemize}
 
 \begin{figure}[h!]
 \begin{minipage}{\textwidth}
 \centering 
 \includegraphics[scale = 0.5 ]{images/resultFrame06.png}
-\caption{The results of the image fist image}
+\caption{The results of the image fifth image}
+\label{fig:result}
 \end{minipage}
 \end{figure}
 
