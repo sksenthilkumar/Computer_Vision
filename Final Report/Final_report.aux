@@ -1,32 +1,68 @@
 \relax 
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Material and methods}{2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Example of a set of five tiles arranged like they will be in the Robocup@Work competition.}}{3}}
-\newlabel{fig:row}{{1}{3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Approach}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Example images for the eight datasets, starting with one in the top left corner, to eight in the lower right.}}{4}}
-\newlabel{fig:datasets}{{2}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The Original image containing irrelevant information, like the table or small parts of the robot.}}{4}}
-\newlabel{fig:original}{{3}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The image after a canny edge filter has been applied.}}{4}}
-\newlabel{fig:edges}{{4}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces All the extracted contours from the edge detection image.}}{5}}
-\newlabel{fig:cavities}{{5}{5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The five points that lie closest to a line have been extracted.}}{5}}
-\newlabel{fig:line}{{6}{5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces A lot of irrelevant information has been cropped out of the image.}}{6}}
-\newlabel{fig:cropped}{{7}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The contour of the image that corresponds to the biggest area of the cropped image.}}{6}}
-\newlabel{fig:five}{{8}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The two extracted corners are shown, red shows the Harris corner, while green shows the corner with sub pixel precision.}}{6}}
-\newlabel{fig:points}{{9}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces An artifical top-down view of the five tiles.}}{6}}
-\newlabel{fig:homograph}{{10}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The five cropped individual images of the tiles.}}{6}}
-\newlabel{fig:individ}{{11}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Description of the setup}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The PPT platform including five cavity tiles}}{2}}
+\newlabel{fig:PPT}{{1}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}PPT platform details: }{2}}
+\citation{second}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Object details:}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces six objects which has to be placed in the cavity tiles \cite  {second} }}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Cavity tiles details:}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Cavity tiles for the objects}}{3}}
+\newlabel{fig:tiles}{{3}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Camera details:}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Asus xtion pro live}}{4}}
+\newlabel{fig:camera}{{4}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Example of a set of five tiles arranged like they will be in the Robocup@Work competition.}}{5}}
+\newlabel{fig:row}{{5}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Approach}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Getting rid of Unnecessary information}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The Original image containing irrelevant information, like the table or small parts of the robot.}}{6}}
+\newlabel{fig:original}{{6}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The image after a canny edge filter has been applied.}}{6}}
+\newlabel{fig:edges}{{7}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces All the extracted contours from the edge detection image.}}{7}}
+\newlabel{fig:cavities}{{8}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The five points that lie closest to a line have been extracted.}}{7}}
+\newlabel{fig:line}{{9}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces A lot of irrelevant information has been cropped out of the image.}}{8}}
+\newlabel{fig:cropped}{{10}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Cavity tile extraction}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The contour of the image that corresponds to the biggest area of the cropped image.}}{8}}
+\newlabel{fig:five}{{11}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces The two extracted corners are shown, red shows the Harris corner, while green shows the corner with sub pixel precision.}}{8}}
+\newlabel{fig:points}{{12}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces An artifical top-down view of the five tiles.}}{8}}
+\newlabel{fig:homograph}{{13}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces The five cropped individual images of the tiles.}}{9}}
+\newlabel{fig:individ}{{14}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Comparison}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Tiles with one possible orientation}}{9}}
+\newlabel{fig:onepossibility}{{15}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Cavity tiles with two possible orientations}}{9}}
+\newlabel{fig:twopossibility}{{16}{9}}
+\citation{third}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Single cavity tile with four possible orientations}}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces From the left. First image shows the extracted tile image, that is given as an input to the MSE or SSIM comparison algorithm. The second image is the best match found in the database using MSE method. The third image shows the best match found using the SSIM method.}}{11}}
+\newlabel{fig:Comparions_result}{{18}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces From the left.First, the image after applying a threshold. Second, after using the median blur.}}{11}}
+\newlabel{fig:Comparions_PreProcessing}{{19}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Evaluation and results}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Used for evaluation}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Example images for the eight datasets, starting with one in the top left corner, to eight in the lower right.}}{12}}
+\newlabel{fig:datasets}{{20}{12}}
 \bibcite{first}{1}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Results for normal cases}{13}}
+\@writefile{toc}{\contentsline {paragraph}{Summary}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces The results for the fifth image. The top left image shows the original input image. the 5 remaining images show one of the extracted tiles along with the identified object and orientation shown in the captions.}}{13}}
+\newlabel{fig:result}{{21}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Results for special cases}{13}}
+\@writefile{toc}{\contentsline {paragraph}{Summary}{13}}
 \bibcite{second}{2}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Evaluation and results}{7}}
-\newlabel{LastPage}{{}{7}}
-\xdef\lastpage@lastpage{7}
+\bibcite{third}{3}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion:}{14}}
+\newlabel{LastPage}{{}{14}}
+\xdef\lastpage@lastpage{14}
 \gdef\lastpage@lastpageHy{}

@@ -1,4 +1,19 @@
 \contentsline {section}{\numberline {1}Introduction}{2}
 \contentsline {section}{\numberline {2}Material and methods}{2}
-\contentsline {section}{\numberline {3}Approach}{3}
-\contentsline {section}{\numberline {4}Evaluation and results}{7}
+\contentsline {subsection}{\numberline {2.1}Description of the setup}{2}
+\contentsline {subsection}{\numberline {2.2}PPT platform details: }{2}
+\contentsline {subsection}{\numberline {2.3}Object details:}{3}
+\contentsline {subsection}{\numberline {2.4}Cavity tiles details:}{3}
+\contentsline {subsection}{\numberline {2.5}Camera details:}{3}
+\contentsline {section}{\numberline {3}Approach}{5}
+\contentsline {subsection}{\numberline {3.1}Getting rid of Unnecessary information}{5}
+\contentsline {subsection}{\numberline {3.2}Cavity tile extraction}{8}
+\contentsline {subsection}{\numberline {3.3}Comparison}{9}
+\contentsline {section}{\numberline {4}Evaluation and results}{11}
+\contentsline {subsection}{\numberline {4.1}Used for evaluation}{11}
+\contentsline {section}{\numberline {5}Results}{13}
+\contentsline {subsection}{\numberline {5.1}Results for normal cases}{13}
+\contentsline {paragraph}{Summary}{13}
+\contentsline {subsection}{\numberline {5.2}Results for special cases}{13}
+\contentsline {paragraph}{Summary}{13}
+\contentsline {section}{\numberline {6}Conclusion:}{14}

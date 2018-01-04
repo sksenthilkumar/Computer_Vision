@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.13)  4 JAN 2018 17:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.13)  4 JAN 2018 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -121,42 +121,315 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip53
 \droptitle=\skip54
 )
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen109
+\lightrulewidth=\dimen110
+\cmidrulewidth=\dimen111
+\belowrulesep=\dimen112
+\belowbottomsep=\dimen113
+\aboverulesep=\dimen114
+\abovetopsep=\dimen115
+\cmidrulesep=\dimen116
+\cmidrulekern=\dimen117
+\defaultaddspace=\dimen118
+\@cmidla=\count97
+\@cmidlb=\count98
+\@aboverulesep=\dimen119
+\@belowrulesep=\dimen120
+\@thisruleclass=\count99
+\@lastruleclass=\count100
+\@thisrulewidth=\dimen121
+)
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks17
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box28
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen122
+\pgf@y=\dimen123
+\pgf@xa=\dimen124
+\pgf@ya=\dimen125
+\pgf@xb=\dimen126
+\pgf@yb=\dimen127
+\pgf@xc=\dimen128
+\pgf@yc=\dimen129
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count101
+\c@pgf@countb=\count102
+\c@pgf@countc=\count103
+\c@pgf@countd=\count104
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count105
+\pgfsyssoftpath@bigbuffer@items=\count106
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen130
+\pgfmath@count=\count107
+\pgfmath@box=\box29
+\pgfmath@toks=\toks21
+\pgfmath@stack@operand=\toks22
+\pgfmath@stack@operation=\toks23
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count108
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen131
+\pgf@picmaxx=\dimen132
+\pgf@picminy=\dimen133
+\pgf@picmaxy=\dimen134
+\pgf@pathminx=\dimen135
+\pgf@pathmaxx=\dimen136
+\pgf@pathminy=\dimen137
+\pgf@pathmaxy=\dimen138
+\pgf@xx=\dimen139
+\pgf@xy=\dimen140
+\pgf@yx=\dimen141
+\pgf@yy=\dimen142
+\pgf@zx=\dimen143
+\pgf@zy=\dimen144
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen145
+\pgf@path@lasty=\dimen146
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen147
+\pgf@shorten@start@additional=\dimen148
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count109
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen149
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen150
+\pgf@pt@y=\dimen151
+\pgf@pt@temp=\dimen152
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen153
+\pgf@sys@shading@range@num=\count110
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box33
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box34
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen154
+\pgf@nodesepend=\dimen155
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen156
+\pgffor@skip=\dimen157
+\pgffor@stack=\toks24
+\pgffor@toks=\toks25
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count111
+\pgfplotmarksize=\dimen158
+)
+\tikz@lastx=\dimen159
+\tikz@lasty=\dimen160
+\tikz@lastxsaved=\dimen161
+\tikz@lastysaved=\dimen162
+\tikzleveldistance=\dimen163
+\tikzsiblingdistance=\dimen164
+\tikz@figbox=\box35
+\tikz@tempbox=\box36
+\tikztreelevel=\count112
+\tikznumberofchildren=\count113
+\tikznumberofcurrentchild=\count114
+\tikz@fig@count=\count115
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count116
+\pgfmatrixcurrentcolumn=\count117
+\pgf@matrix@numberofcolumns=\count118
+)
+\tikz@expandcount=\count119
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+))) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count120
+\calc@Bcount=\count121
+\calc@Adimen=\dimen165
+\calc@Bdimen=\dimen166
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count122
+\calc@Cskip=\skip57
+)
 (./Final_report.aux)
 \openout1 = `Final_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 44.
+(lastpage)             ! on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count97
-\scratchdimen=\dimen109
-\scratchbox=\box28
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count100
-\MPscratchDim=\dimen110
-\MPnumerator=\count101
-\makeMPintoPDFobject=\count102
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count123
+\scratchdimen=\dimen167
+\scratchbox=\box37
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen168
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -205,249 +478,1286 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count103
+\c@lstlisting=\count129
 
-<images/lenna.png, id=1, 370.0224pt x 370.0224pt>
-File: images/lenna.png Graphic file (type png)
- <use images/lenna.png>
-Package pdftex.def Info: images/lenna.png used on input line 46.
-(pdftex.def)             Requested size: 185.01074pt x 185.01074pt.
+ABD: EveryShipout initializing macros
 
+LaTeX Warning: File `images/FrontPicture.jpg' not found on input line 51.
+
+
+! Package pdftex.def Error: File `images/FrontPicture.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \hmwkimage
+               \\
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 51.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+! Font OT1/pcr/m/n/10=pcrr7t at 10.0pt not loadable: Metric (TFM) file not foun
+d.
+<to be read again> 
+                   relax 
+l.51 \hmwkimage
+               \\
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/lenna.png>]
-(./Final_report.toc)
-\tf@toc=\write3
-\openout3 = `Final_report.toc'.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Final_report.toc)
+\tf@toc=\write4
+\openout4 = `Final_report.toc'.
 
- [1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 65.
+
+[1]
+
+LaTeX Warning: Reference `fig:PPT' on page 2 undefined on input line 73.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 112.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--87
-
- []
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 101.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 101.
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--106
-
- []
-
-<images/5tiles.jpeg, id=14, 963.6pt x 1284.8pt>
-File: images/5tiles.jpeg Graphic file (type jpg)
- <use images/5tiles.jpeg>
-Package pdftex.def Info: images/5tiles.jpeg used on input line 109.
-(pdftex.def)             Requested size: 144.53375pt x 192.71169pt.
+LaTeX Warning: File `images/PPT_Platform.png' not found on input line 118.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+! Package pdftex.def Error: File `images/PPT_Platform.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 ...phics[scale=0.5]{images/PPT_Platform.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: Reference `fig:PPT' on page 2 undefined on input line 123.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--118
+LaTeX Warning: Reference `fig:PPT' on page 2 undefined on input line 142.
 
- []
+
+LaTeX Warning: Reference `fig:PPT' on page 2 undefined on input line 143.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+LaTeX Warning: File `images/AllParts.jpg' not found on input line 163.
+
+
+! Package pdftex.def Error: File `images/AllParts.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 ...egraphics[scale=0.5]{images/AllParts.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/AllTiles.png' not found on input line 177.
+
+
+! Package pdftex.def Error: File `images/AllTiles.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 ...egraphics[scale=1.0]{images/AllTiles.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: Reference `fig:camera' on page 3 undefined on input line 185.
+
+[3]
+
+LaTeX Warning: File `images/camera.jpeg' not found on input line 212.
+
+
+! Package pdftex.def Error: File `images/camera.jpeg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.212 ...degraphics[scale=0.5]{images/camera.jpeg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-<images/First_set.jpg, id=22, 642.4pt x 481.8pt>
-File: images/First_set.jpg Graphic file (type jpg)
- <use images/First_set.jpg>
-Package pdftex.def Info: images/First_set.jpg used on input line 135.
-(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 223.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 223.
 
-<images/Second_set.jpg, id=23, 642.4pt x 481.8pt>
-File: images/Second_set.jpg Graphic file (type jpg)
- <use images/Second_set.jpg>
-Package pdftex.def Info: images/Second_set.jpg used on input line 136.
-(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+Underfull \hbox (badness 10000) in paragraph at lines 223--228
 
-<images/Third_set.jpg, id=24, 642.4pt x 481.8pt>
-File: images/Third_set.jpg Graphic file (type jpg)
- <use images/Third_set.jpg>
-Package pdftex.def Info: images/Third_set.jpg used on input line 137.
-(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+ []
 
-<images/Fourth_set.jpg, id=25, 642.4pt x 481.8pt>
-File: images/Fourth_set.jpg Graphic file (type jpg)
- <use images/Fourth_set.jpg>
-Package pdftex.def Info: images/Fourth_set.jpg used on input line 138.
-(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+<images/5tiles.jpeg, id=26, 963.6pt x 1284.8pt>
+File: images/5tiles.jpeg Graphic file (type jpg)
+ <use images/5tiles.jpeg>
+Package pdftex.def Info: images/5tiles.jpeg used on input line 231.
+(pdftex.def)             Requested size: 144.53375pt x 192.71169pt.
 
-<images/Fifth_set.jpg, id=26, 642.4pt x 481.8pt>
-File: images/Fifth_set.jpg Graphic file (type jpg)
- <use images/Fifth_set.jpg>
-Package pdftex.def Info: images/Fifth_set.jpg used on input line 139.
-(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
-<images/Sixth_set.jpg, id=27, 642.4pt x 481.8pt>
-File: images/Sixth_set.jpg Graphic file (type jpg)
- <use images/Sixth_set.jpg>
-Package pdftex.def Info: images/Sixth_set.jpg used on input line 140.
-(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+ []
 
-<images/Seventh_set.jpg, id=28, 642.4pt x 481.8pt>
-File: images/Seventh_set.jpg Graphic file (type jpg)
-
-<use images/Seventh_set.jpg>
-Package pdftex.def Info: images/Seventh_set.jpg used on input line 141.
-(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
- <images/Eigth_set.jpg, id=29, 642.4pt x 481.8pt>
-File: images/Eigth_set.jpg Graphic file (type jpg)
-
-<use images/Eigth_set.jpg>
-Package pdftex.def Info: images/Eigth_set.jpg used on input line 142.
-(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/frame01.jpg, id=30, 642.4pt x 481.8pt>
+<images/frame01.jpg, id=27, 642.4pt x 481.8pt>
 File: images/frame01.jpg Graphic file (type jpg)
  <use images/frame01.jpg>
-Package pdftex.def Info: images/frame01.jpg used on input line 153.
+Package pdftex.def Info: images/frame01.jpg used on input line 258.
 (pdftex.def)             Requested size: 192.72148pt x 144.5411pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/edges.jpg, id=31, 642.4pt x 481.8pt>
+<images/edges.jpg, id=28, 642.4pt x 481.8pt>
 File: images/edges.jpg Graphic file (type jpg)
  <use images/edges.jpg>
-Package pdftex.def Info: images/edges.jpg used on input line 161.
+Package pdftex.def Info: images/edges.jpg used on input line 267.
 (pdftex.def)             Requested size: 192.72148pt x 144.5411pt.
-
-<images/cavitycontours.jpg, id=32, 642.4pt x 481.8pt>
+ [5 <./images/5tiles.jpeg>] <images/cavitycontours.jpg, id=35, 642.4pt x 481.8p
+t>
 File: images/cavitycontours.jpg Graphic file (type jpg)
 
 <use images/cavitycontours.jpg>
-Package pdftex.def Info: images/cavitycontours.jpg used on input line 168.
+Package pdftex.def Info: images/cavitycontours.jpg used on input line 277.
 (pdftex.def)             Requested size: 192.72148pt x 144.5411pt.
- <images/line.jpg, id=33, 642.4pt x 481.8pt>
-File: images/line.jpg Graphic file (type jpg)
 
-<use images/line.jpg>
-Package pdftex.def Info: images/line.jpg used on input line 175.
-(pdftex.def)             Requested size: 192.72148pt x 144.5411pt.
- [3 <./images/5tiles.jpeg>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./images/First_set.jpg> <./images/Second_set.jpg> <./images/Third_set.jpg> 
-<./images/Fourth_set.jpg> <./images/Fifth_set.jpg> <./images/Sixth_set.jpg> <./
-images/Seventh_set.jpg> <./images/Eigth_set.jpg> <./images/frame01.jpg> <./imag
-es/edges.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 186--191
+<images/line.jpg, id=36, 642.4pt x 481.8pt>
+File: images/line.jpg Graphic file (type jpg)
+ <use images/line.jpg>
+Package pdftex.def Info: images/line.jpg used on input line 287.
+(pdftex.def)             Requested size: 192.72148pt x 144.5411pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./images/frame01.jpg> <./images/edges.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 300--305
 
  []
 
-<images/cropped.jpg, id=40, 455.7025pt x 148.555pt>
+<images/cropped.jpg, id=41, 455.7025pt x 148.555pt>
 File: images/cropped.jpg Graphic file (type jpg)
  <use images/cropped.jpg>
-Package pdftex.def Info: images/cropped.jpg used on input line 194.
+Package pdftex.def Info: images/cropped.jpg used on input line 308.
 (pdftex.def)             Requested size: 136.71179pt x 44.56683pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/5tiles.jpg, id=41, 455.7025pt x 148.555pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+[7 <./images/cavitycontours.jpg> <./images/line.jpg>]
+<images/5tiles.jpg, id=47, 455.7025pt x 148.555pt>
 File: images/5tiles.jpg Graphic file (type jpg)
  <use images/5tiles.jpg>
-Package pdftex.def Info: images/5tiles.jpg used on input line 201.
+Package pdftex.def Info: images/5tiles.jpg used on input line 320.
 (pdftex.def)             Requested size: 136.71179pt x 44.56683pt.
 
-<images/Corners.jpg, id=42, 50.1875pt x 50.1875pt>
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+
+ []
+
+<images/Corners.jpg, id=48, 50.1875pt x 50.1875pt>
 File: images/Corners.jpg Graphic file (type jpg)
  <use images/Corners.jpg>
-Package pdftex.def Info: images/Corners.jpg used on input line 208.
+Package pdftex.def Info: images/Corners.jpg used on input line 329.
 (pdftex.def)             Requested size: 50.18736pt x 50.18736pt.
 
-<images/homography.jpg, id=43, 1003.75pt x 200.75pt>
+<images/homography.jpg, id=49, 1003.75pt x 200.75pt>
 File: images/homography.jpg Graphic file (type jpg)
 
 <use images/homography.jpg>
-Package pdftex.def Info: images/homography.jpg used on input line 215.
+Package pdftex.def Info: images/homography.jpg used on input line 338.
 (pdftex.def)             Requested size: 301.12732pt x 60.22545pt.
- <images/tile0.jpg, id=44, 200.75pt x 200.75pt>
+ <images/tile0.jpg, id=50, 200.75pt x 200.75pt>
 File: images/tile0.jpg Graphic file (type jpg)
 
 <use images/tile0.jpg>
-Package pdftex.def Info: images/tile0.jpg used on input line 223.
+Package pdftex.def Info: images/tile0.jpg used on input line 349.
 (pdftex.def)             Requested size: 60.22545pt x 60.22545pt.
- <images/tile1.jpg, id=45, 200.75pt x 200.75pt>
+ <images/tile1.jpg, id=51, 200.75pt x 200.75pt>
 File: images/tile1.jpg Graphic file (type jpg)
 
 <use images/tile1.jpg>
-Package pdftex.def Info: images/tile1.jpg used on input line 225.
+Package pdftex.def Info: images/tile1.jpg used on input line 351.
 (pdftex.def)             Requested size: 60.22545pt x 60.22545pt.
- <images/tile2.jpg, id=46, 200.75pt x 200.75pt>
+ <images/tile2.jpg, id=52, 200.75pt x 200.75pt>
 File: images/tile2.jpg Graphic file (type jpg)
 
 <use images/tile2.jpg>
-Package pdftex.def Info: images/tile2.jpg used on input line 227.
+Package pdftex.def Info: images/tile2.jpg used on input line 353.
 (pdftex.def)             Requested size: 60.22545pt x 60.22545pt.
- <images/tile3.jpg, id=47, 200.75pt x 200.75pt>
+ <images/tile3.jpg, id=53, 200.75pt x 200.75pt>
 File: images/tile3.jpg Graphic file (type jpg)
 
 <use images/tile3.jpg>
-Package pdftex.def Info: images/tile3.jpg used on input line 229.
+Package pdftex.def Info: images/tile3.jpg used on input line 355.
 (pdftex.def)             Requested size: 60.22545pt x 60.22545pt.
- <images/tile4.jpg, id=48, 200.75pt x 200.75pt>
+ <images/tile4.jpg, id=54, 200.75pt x 200.75pt>
 File: images/tile4.jpg Graphic file (type jpg)
 
 <use images/tile4.jpg>
-Package pdftex.def Info: images/tile4.jpg used on input line 231.
+Package pdftex.def Info: images/tile4.jpg used on input line 357.
 (pdftex.def)             Requested size: 60.22545pt x 60.22545pt.
- [5 <./images/cavitycontours.jpg> <./images/line.jpg>]
-[6 <./images/cropped.jpg> <./images/5tiles.jpg> <./images/Corners.jpg> <./image
-s/homography.jpg> <./images/tile0.jpg> <./images/tile1.jpg> <./images/tile2.jpg
-> <./images/tile3.jpg> <./images/tile4.jpg>]
-Overfull \hbox (33.18509pt too wide) in paragraph at lines 247--248
+ [8 <./images/cropped.jpg> <./images/5tiles.jpg> <./images/Corners.jpg> <./imag
+es/homography.jpg>]
+
+LaTeX Warning: File `images/tile01.jpg' not found on input line 376.
+
+
+! Package pdftex.def Error: File `images/tile01.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.376 ...5 cm, height = 2.5 cm]{images/tile01.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/tile02.jpg' not found on input line 378.
+
+
+! Package pdftex.def Error: File `images/tile02.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.378 ...5 cm, height = 2.5 cm]{images/tile02.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/tile03.jpg' not found on input line 380.
+
+
+! Package pdftex.def Error: File `images/tile03.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.380 ...5 cm, height = 2.5 cm]{images/tile03.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/tile04.jpg' not found on input line 382.
+
+
+! Package pdftex.def Error: File `images/tile04.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.382 ...5 cm, height = 2.5 cm]{images/tile04.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/tile05.jpg' not found on input line 384.
+
+
+! Package pdftex.def Error: File `images/tile05.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.384 ...5 cm, height = 2.5 cm]{images/tile05.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/tile06.jpg' not found on input line 396.
+
+
+! Package pdftex.def Error: File `images/tile06.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.396 ...5 cm, height = 2.5 cm]{images/tile06.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/tile07.jpg' not found on input line 398.
+
+
+! Package pdftex.def Error: File `images/tile07.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.398 ...5 cm, height = 2.5 cm]{images/tile07.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/tile08.jpg' not found on input line 400.
+
+
+! Package pdftex.def Error: File `images/tile08.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400 ...5 cm, height = 2.5 cm]{images/tile08.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/tile09.jpg' not found on input line 402.
+
+
+! Package pdftex.def Error: File `images/tile09.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.402 ...5 cm, height = 2.5 cm]{images/tile09.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/tile10.jpg' not found on input line 404.
+
+
+! Package pdftex.def Error: File `images/tile10.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.404 ...5 cm, height = 2.5 cm]{images/tile10.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+[9 <./images/tile0.jpg> <./images/tile1.jpg> <./images/tile2.jpg> <./images/til
+e3.jpg> <./images/tile4.jpg>]
+
+LaTeX Warning: File `images/tile11.jpg' not found on input line 416.
+
+
+! Package pdftex.def Error: File `images/tile11.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.416 ... cm, height = 2.5 cm ]{images/tile11.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/Screw_Horizontal_180.jpg' not found on input line 4
+30.
+
+
+! Package pdftex.def Error: File `images/Screw_Horizontal_180.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.430 ...ineskip]{images/Screw_Horizontal_180.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 428--444
+[][] [] 
+ []
+
+
+LaTeX Warning: File `images/SmallNut_Horizontal_00.jpg' not found on input line
+ 450.
+
+
+! Package pdftex.def Error: File `images/SmallNut_Horizontal_00.jpg' not found.
+
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.450 ...kip]  {images/SmallNut_Horizontal_00.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 447--464
+[][] [] 
+ []
+
+
+LaTeX Warning: File `images/SmallNut_Vertical_00.jpg' not found on input line 4
+68.
+
+
+! Package pdftex.def Error: File `images/SmallNut_Vertical_00.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 ...ineskip]{images/SmallNut_Vertical_00.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 465--482
+[][] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+
+ []
+
+
+LaTeX Warning: Citation `third' on page 10 undefined on input line 506.
+
+
+LaTeX Warning: File `images/ComparisonInput.png' not found on input line 521.
+
+
+! Package pdftex.def Error: File `images/ComparisonInput.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 ...scale = 0.3 ]{images/ComparisonInput.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/Comparison_MSE_BestMatch.png' not found on input li
+ne 522.
+
+
+! Package pdftex.def Error: File `images/Comparison_MSE_BestMatch.png' not foun
+d.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.522 ....3 ]{images/Comparison_MSE_BestMatch.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/Comparison_SSIM_BestMatch.png' not found on input l
+ine 523.
+
+
+! Package pdftex.def Error: File `images/Comparison_SSIM_BestMatch.png' not fou
+nd.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.523 ....3]{images/Comparison_SSIM_BestMatch.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+[10]
+
+LaTeX Warning: Reference `fig:Comparions_PreProcessing' on page 11 undefined on
+ input line 534.
+
+
+LaTeX Warning: Reference `fig:Comparions_PreProcessing' on page 11 undefined on
+ input line 535.
+
+
+LaTeX Warning: File `images/AfterThreshholding.png' not found on input line 540
+.
+
+
+! Package pdftex.def Error: File `images/AfterThreshholding.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.540 ...ale = 0.3]{images/AfterThreshholding.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+LaTeX Warning: File `images/AfterMedianBlur.png' not found on input line 542.
+
+
+! Package pdftex.def Error: File `images/AfterMedianBlur.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.542 ...scale = 0.3 ]{images/AfterMedianBlur.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+[11] <images/First_set.jpg, id=68, 642.4pt x 481.8pt>
+File: images/First_set.jpg Graphic file (type jpg)
+
+<use images/First_set.jpg>
+Package pdftex.def Info: images/First_set.jpg used on input line 590.
+(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+ <images/Second_set.jpg, id=69, 642.4pt x 481.8pt>
+File: images/Second_set.jpg Graphic file (type jpg)
+
+<use images/Second_set.jpg>
+Package pdftex.def Info: images/Second_set.jpg used on input line 591.
+(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+ <images/Third_set.jpg, id=70, 642.4pt x 481.8pt>
+File: images/Third_set.jpg Graphic file (type jpg)
+
+<use images/Third_set.jpg>
+Package pdftex.def Info: images/Third_set.jpg used on input line 592.
+(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+ <images/Fourth_set.jpg, id=71, 642.4pt x 481.8pt>
+File: images/Fourth_set.jpg Graphic file (type jpg)
+
+<use images/Fourth_set.jpg>
+Package pdftex.def Info: images/Fourth_set.jpg used on input line 593.
+(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+ <images/Fifth_set.jpg, id=72, 642.4pt x 481.8pt>
+File: images/Fifth_set.jpg Graphic file (type jpg)
+
+<use images/Fifth_set.jpg>
+Package pdftex.def Info: images/Fifth_set.jpg used on input line 594.
+(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+ <images/Sixth_set.jpg, id=73, 642.4pt x 481.8pt>
+File: images/Sixth_set.jpg Graphic file (type jpg)
+
+<use images/Sixth_set.jpg>
+Package pdftex.def Info: images/Sixth_set.jpg used on input line 595.
+(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+ <images/Seventh_set.jpg, id=74, 642.4pt x 481.8pt>
+File: images/Seventh_set.jpg Graphic file (type jpg)
+
+<use images/Seventh_set.jpg>
+Package pdftex.def Info: images/Seventh_set.jpg used on input line 596.
+(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+ <images/Eigth_set.jpg, id=75, 642.4pt x 481.8pt>
+File: images/Eigth_set.jpg Graphic file (type jpg)
+
+<use images/Eigth_set.jpg>
+Package pdftex.def Info: images/Eigth_set.jpg used on input line 597.
+(pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
+ [12 <./images/First_set.jpg> <./images/Second_set.jpg> <./images/Third_set.jpg
+> <./images/Fourth_set.jpg> <./images/Fifth_set.jpg> <./images/Sixth_set.jpg> <
+./images/Seventh_set.jpg> <./images/Eigth_set.jpg>]
+
+LaTeX Warning: Reference `fig:result' on page 13 undefined on input line 627.
+
+
+LaTeX Warning: File `images/resultFrame06.png' not found on input line 633.
+
+
+! Package pdftex.def Error: File `images/resultFrame06.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.633 ...s[scale = 0.5 ]{images/resultFrame06.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+[13]
+Overfull \hbox (33.18509pt too wide) in paragraph at lines 663--664
 []\OT1/cmr/m/n/10 Webpage, last viewed 13.12.17 20:25, https://docs.opencv.org/
 3.1.0/dc/da5/tutorial[]py[]drawing[]functions.html 
  []
 
 
 AED: lastpage setting LastPage
-[7] (./Final_report.aux) ) 
+[14] (./Final_report.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3502 strings out of 495028
- 51247 string characters out of 6181497
- 204088 words of memory out of 5000000
- 6656 multiletter control sequences out of 15000+600000
+ 11930 strings out of 495028
+ 218055 string characters out of 6181497
+ 357646 words of memory out of 5000000
+ 14854 multiletter control sequences out of 15000+600000
  5764 words of font info for 21 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,10n,43p,667b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Final_report.pdf (8 pages, 1843873 bytes).
+ 56i,10n,55p,845b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb>
+Output written on Final_report.pdf (15 pages, 1229030 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
