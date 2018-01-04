@@ -255,7 +255,7 @@ The project is divided into three phases:
 In order to normalize the input image and rectify the row of tiles, the first step is to crop the image and get rid of unnecessary information (fig. \ref{fig:original}). \\
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.3]{images/frame01.jpg}
+\includegraphics[scale=0.3]{images/frame06.jpg}
 \caption{The Original image containing irrelevant information, like the table or small parts of the robot.}
 \label{fig:original}
 \end{figure}
@@ -515,16 +515,14 @@ $c - covariance $
 This is used to compare two windows rather than two images \\ 
 The output value ranges from -1 to 1, where 1 represents a perfect match
 
-\begin{figure}[h!]
-
-\centering 
-\includegraphics[scale = 0.3 ]{images/ComparisonInput.png}
-\includegraphics[scale = 0.3 ]{images/Comparison_MSE_BestMatch.png}
-\includegraphics[scale = 0.3]{images/Comparison_SSIM_BestMatch.png}
-\caption{From the left. First image shows the extracted tile image, that is given as an input to the MSE or SSIM comparison algorithm. The second image is the best match found in the database using MSE method. The third image shows the best match found using the SSIM method.}
-\label{fig:Comparions_result}
-
-\end{figure}
+%\begin{figure}[h!]
+%\centering 
+%\includegraphics[scale = 0.3 ]{images/ComparisonInput.png}
+%\includegraphics[scale = 0.3 ]{images/Comparison_MSE_BestMatch.png}
+%\includegraphics[scale = 0.3]{images/Comparison_SSIM_BestMatch.png}
+%\caption{From the left. First image shows the extracted tile image, that is given as an input to the MSE or SSIM comparison algorithm. The second image is the best match found in the database using MSE method. The third image shows the best match found using the SSIM method.}
+%\label{fig:Comparions_result}
+%\end{figure}
 
 \subsection*{For better efficiency}
 For the comparison techniques seen above perform well, the images are preprocessed:
@@ -534,16 +532,16 @@ For the comparison techniques seen above perform well, the images are preprocess
 \item A \textbf{binary threshold} is applied to the image, in order to increase the contrast between cavity and tile, to normalize the colors of the images (get rid of shadows and non-homogeneous lighting), but mainly to provide a clear shape of the cavity (Fig:\ref{fig:Comparions_PreProcessing})
 \item \textbf{Median blur} is applied to get rid of the salt and pepper noise (Fig:\ref{fig:Comparions_PreProcessing})
 \end{itemize}
-\begin{figure}[h!]
-\begin{minipage}{\textwidth}
-\centering 
-\includegraphics[scale = 0.3]{images/AfterThreshholding.png}
-\hspace{1cm}
-\includegraphics[scale = 0.3 ]{images/AfterMedianBlur.png}
-\caption{From the left.First, the image after applying a threshold. Second, after using the median blur.}
-\label{fig:Comparions_PreProcessing}
-\end{minipage}
-\end{figure}
+%\begin{figure}[h!]
+%\begin{minipage}{\textwidth}
+%\centering 
+%\includegraphics[scale = 0.3]{images/AfterThreshholding.png}
+%\hspace{1cm}
+%\includegraphics[scale = 0.3 ]{images/AfterMedianBlur.png}
+%\caption{From the left.First, the image after applying a threshold. Second, after using the median blur.}
+%\label{fig:Comparions_PreProcessing}
+%\end{minipage}
+%\end{figure}
 
 \subsubsection*{Optimisation:}
 
