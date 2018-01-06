@@ -150,7 +150,7 @@ class ExtractTiles():
         for i in xrange(len(self.final_five_points)-1):
             dist += self.distance_function(self.final_five_points[i,0],self.final_five_points[i+1,0],self.final_five_points[i,1],self.final_five_points[i+1,1])
         dist = int(dist/(len(self.final_five_points)-1))*2/3+5
-        x_min = self.final_five_points[0,0]-dist-10 if self.final_five_points[0,0]-dist > 0 else 0
+        x_min = self.final_five_points[0,0]-dist-10 if self.final_five_points[0,0]-dist-10 > 0 else 0
         x_max = self.final_five_points[-1,0]+dist+10 if self.final_five_points[-1,0]+dist < self.image.shape[1] else self.image.shape[1]
         y_min = min(self.final_five_points[:,1])-dist if min(self.final_five_points[:,1])-dist > 0 else 0
         y_max = max(self.final_five_points[:,1])+dist if max(self.final_five_points[:,1])+dist < self.image.shape[0] else self.image.shape[0]
@@ -167,11 +167,11 @@ class ExtractTiles():
         center_points = []
         detected_contours = 0
         for c in contours:
-            list_of_areas = [] #when there are more than one contour satisfying the condition
             area = cv2.contourArea(c)
+            shape = self.detect(c)
 
             #pixel per cm is taken with 30% tolerance
-            if area >= 15000 and area <= 100000:
+            if area >= 5000 and area <= 100000 and shape != "unidentified":
                 detected_contours += 1
                 cv2.drawContours(self.objects,[c],-1,(255,255,0),-1)
                 epsilon = 0.005*cv2.arcLength(c,True)
@@ -287,6 +287,27 @@ class ExtractTiles():
             tiles.append(self.dst[0:200,200*i:200*(i+1)])
         self.tiles = np.array(tiles)
         return self.tiles
+
+    def detect(self, c):
+        # initialize the shape name and approximate the contour
+        shape = "unidentified"
+        peri = cv2.arcLength(c, True)
+        approx = cv2.approxPolyDP(c, 0.01 * peri, True)
+
+        # if the shape has 4 vertices, it is either a square or
+        # a rectangle
+        if len(approx) == 4:
+            # compute the bounding box of the contour and use the
+            # bounding box to compute the aspect ratio
+            (x, y, w, h) = cv2.boundingRect(approx)
+            ar = w / float(h)
+
+            # a square will have an aspect ratio that is approximately
+            # equal to one, otherwise, the shape is a rectangle
+            shape = "square" if ar >= 0.95 and ar <= 1.05 else "rectangle"
+
+        # return the name of the shape
+        return shape
 
 class Find_objects():
 
@@ -422,6 +443,6 @@ class Find_objects():
         plt.show()
 
 if __name__ == "__main__":
-     im = cv2.imread('Results/Tenth_set.jpg')
+     im = cv2.imread('Results/Seventh_set.jpg')
      tiles = ExtractTiles(im,show=True)
      a = Find_objects(tiles.tiles,show=True)
